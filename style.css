@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+}
+/* header */
+header{
+    background-color: rgb(211, 157, 239);
+    color: rgb(249, 252, 246);
+    display: flex;
+    justify-content: space-around;
+}
+header button{
+    width: 90px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 10px;
+}
+/* banner */
+.banner{ 
+    background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-hand-painted-school-season-cartoon-children-banner-picture-image_889074.jpg);
+
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+
+}
+/* section */
+section{
+    background-color: rgb(213, 184, 205);
+    padding-top: 20px;
+}
+
+.row{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.col{
+    background-color: rgb(190, 101, 120);
+    height: 310px;
+    width: 200px;
+    color: aliceblue;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+img{
+    padding-top: 10px;
+    width: 180px;
+    height: 220px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+img:hover{
+    box-shadow: 2px 4px rgb(10, 95, 129);
+}
+
+section span{
+    color: rgb(4, 60, 103);
+}
+
+section button{
+    background-color: rgb(207, 221, 142);
+    margin: 5px;  
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width:80px;
+    height: 25px;  
+         
+}
+section button:hover{
+    background-color: black;
+    color: rgb(236, 236, 186);
+}
+section h2{
+    text-align: center;
+}
+
+/* footer */
+footer{
+    background-color:  rgb(211, 157, 239);
+    display: flex;
+    justify-content: space-around;
+    height:150px ;
+    padding-top: 30px ;
+
+}
+footer h4{
+    color: rgb(240, 234, 229);
+}
